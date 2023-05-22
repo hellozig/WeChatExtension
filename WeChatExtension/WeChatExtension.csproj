@@ -9,7 +9,7 @@
     <Company>河南递归信息技术有限公司</Company>
     <Authors>YYZ</Authors>
     <PackageIcon>logo.png</PackageIcon>
-    <RepositoryUrl>www.diguisoft.com</RepositoryUrl>
+    <RepositoryUrl>https://www.diguisoft.com</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
