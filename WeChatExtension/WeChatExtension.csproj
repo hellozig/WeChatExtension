@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Title>微信功能的扩展包</Title>
+    <ApplicationIcon>fav.ico</ApplicationIcon>
+    <Description>用于微信常用功能的二次开发封装</Description>
+    <Company>河南递归信息技术有限公司</Company>
+    <Authors>YYZ</Authors>
+    <PackageIcon>logo.png</PackageIcon>
+    <RepositoryUrl>www.diguisoft.com</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="fav.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
