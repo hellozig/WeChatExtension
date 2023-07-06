@@ -10,10 +10,18 @@
     <Authors>YYZ</Authors>
     <PackageIcon>logo.png</PackageIcon>
     <RepositoryUrl>https://www.diguisoft.com</RepositoryUrl>
+    <ProjectUrl>https://www.diguisoft.com</ProjectUrl>
+    <Version>1.3.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="fav.ico" />
+    <None Include="README.md" Pack="true" PackagePath=""/>
+    <None Include="LICENSE.txt" Pack="true" PackagePath=""/>
   </ItemGroup>
 
   <ItemGroup>
@@ -28,3 +36,4 @@
   </ItemGroup>
 
 </Project>
+  
