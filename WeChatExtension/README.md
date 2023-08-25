@@ -15,6 +15,6 @@
 
 示例
 ```c#
-var guid =await  Oauth2.CheckOpenID(openid);
+var guid =await  Oauth2.GetOpenID(appid,secret,code,state);
 ```
 _http://www.diguisoft.com_
