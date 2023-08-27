@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Title>基于BootstrapBlazor组件的一些扩展组件</Title>
+	  <ApplicationIcon>fav.ico</ApplicationIcon>
+	  <Description>对BootstrapBlazor组件进行一些加强开发，加强更多功能。</Description>
+	  <Company>河南递归信息技术有限公司</Company>
+	  <Authors>YYZ</Authors>
+	  <PackageIcon>logo.png</PackageIcon>
+	  <RepositoryUrl>https://www.diguisoft.com</RepositoryUrl>
+	  <ProjectUrl>https://www.diguisoft.com</ProjectUrl>
+	  <Version>1.0.0</Version>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+
+	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fav.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="fav.ico" />
+  </ItemGroup>
+	<ItemGroup>
+		<Content Include="fav.ico" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BootstrapBlazor" Version="7.9.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="logo.png">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+
+</Project>
