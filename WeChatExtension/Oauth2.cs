@@ -10,6 +10,11 @@ namespace WeChatExtension
 {
     public class Oauth2
     {
+        public static async Task<string> GetOpenIDAsyc(Userinfo ui)
+        {
+            return await  GetOpenID(ui.appid, ui.secret, ui.code, ui.state);
+        }
+
         public static async Task<string> GetOpenID(string appid,string secret,string code, string state,string urlTocken= "https://api.weixin.qq.com/sns/oauth2/access_token")
         {
             //string appid = "wxa2c774b190986dae";
